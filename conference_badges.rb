@@ -7,5 +7,5 @@ def batch_badge_creator(names)
 end 
 
 def assign_rooms(attendees)
-  attendees.map.each.with_index
+  attendees.map.each.with_index(1)
 end 
